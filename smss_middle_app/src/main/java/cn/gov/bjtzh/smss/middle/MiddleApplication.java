@@ -2,6 +2,7 @@ package cn.gov.bjtzh.smss.middle;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * All rights Reserved, Designed By YangJingRui
@@ -14,7 +15,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Version V1.0
  * @Copyright: 2020@www.guodatou.com All rights reserved.
  */
-
+@EnableSwagger2
 @SpringBootApplication
 @tk.mybatis.spring.annotation.MapperScan(basePackages = {"cn.gov.bjtzh.smss.middle.entity.dao"})
 
