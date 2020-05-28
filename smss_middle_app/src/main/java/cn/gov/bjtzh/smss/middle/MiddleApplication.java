@@ -16,8 +16,9 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @Version V1.0
  * @Copyright: 2020@www.guodatou.com All rights reserved.
  */
-@EnableScheduling
+
 @EnableSwagger2
+//是否添加@EnableSwagger2
 @SpringBootApplication
 @tk.mybatis.spring.annotation.MapperScan(basePackages = {"cn.gov.bjtzh.smss.middle.entity.dao"})
 
